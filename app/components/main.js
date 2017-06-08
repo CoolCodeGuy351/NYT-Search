@@ -149,7 +149,7 @@ var Main = React.createClass({
               <div className="panel-heading">
                 <h3 className="panel-title">Search Results</h3>
               </div>
-              <div className="panel-body">
+              <div className="panel-body text-center">
                 <p><strong>Movie 1</strong> Movie 1 </p>
                 <p><strong>Movie 2</strong> Movie 2 </p>
                 <p><strong>Movie 3</strong> Movie 3 </p>
@@ -171,7 +171,7 @@ var Main = React.createClass({
               <div className="panel-heading">
                 <h3 className="panel-title">Saved Articles</h3>
               </div>
-              <div className="panel-body">
+              <div className="panel-body text-center">
                 <p><strong>Movie 1</strong> Movie 1 </p>
                 <p><strong>Movie 2</strong> Movie 2 </p>
                 <p><strong>Movie 3</strong> Movie 3 </p>
