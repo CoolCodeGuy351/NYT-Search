@@ -142,7 +142,7 @@ var Main = React.createClass({
 
 
       
-      </div>{/*     Encapsulating Container Div End        */}
+      </div>
     );
   }
 });
