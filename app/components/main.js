@@ -7,7 +7,7 @@ var Form = require("./form");
 // Requiring our helper for making API calls
 var helpers = require("../utils/helper");
 
-// Create the Parent Component
+// Create the Main Component
 var Main = React.createClass({
 
   // Here we set a generic state associated with the number of clicks
@@ -65,6 +65,7 @@ var Main = React.createClass({
   // Here we render the function
   render: function() {
     return (
+
       <div className="container">
 
         <div className="row">
@@ -81,9 +82,9 @@ var Main = React.createClass({
                 */}
             </div>
           </div>
-        </div>
+      </div>
 
-                  {/*                        SECOND PANEL                           */}
+        {/*                       Search Menu                             */}
 
         <div className="row">
               <div className="col">
@@ -138,9 +139,48 @@ var Main = React.createClass({
               </div>
         </div>
 
-      {/*                        Third Panel                           */}
+      {/*                        Results Section                           */}
+
+      <div className="row">
+
+          <div className="col-lg-12">
+
+            <div className="panel panel-default">
+              <div className="panel-heading">
+                <h3 className="panel-title">Search Results</h3>
+              </div>
+              <div className="panel-body">
+                <p><strong>Movie 1</strong> Movie 1 </p>
+                <p><strong>Movie 2</strong> Movie 2 </p>
+                <p><strong>Movie 3</strong> Movie 3 </p>
+              </div>
+            </div>
+
+          </div>
+
+      </div>
 
 
+      {/*                        Saved Article Section Section                           */}
+
+      <div className="row">
+
+          <div className="col-lg-12">
+
+            <div className="panel panel-default">
+              <div className="panel-heading">
+                <h3 className="panel-title">Saved Articles</h3>
+              </div>
+              <div className="panel-body">
+                <p><strong>Movie 1</strong> Movie 1 </p>
+                <p><strong>Movie 2</strong> Movie 2 </p>
+                <p><strong>Movie 3</strong> Movie 3 </p>
+              </div>
+            </div>
+
+          </div>
+
+      </div>
       
       </div>
     );
