@@ -148,4 +148,4 @@ var Main = React.createClass({
 });
 
 // Export the component back for use in other files
-module.exports = Parent;
+module.exports = Main;
